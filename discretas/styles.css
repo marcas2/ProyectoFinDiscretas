@@ -1,0 +1,111 @@
+
+body{
+    margin: 30;
+    background-color: #1a1919;
+
+    
+}  
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 75px; 
+    background:linear-gradient(100deg, #00186e,#8df28d);
+    align-items: center;    
+} h1{
+    font-size: 50px;
+    text-align: left;
+    color: #ffffff;
+ }
+ .logo{
+    font-family: 'Konkhmer Sleokchher', cursive;
+ }
+ .menu{
+    font-family: 'Konkhmer Sleokchher', cursive;
+    color: #01131c;
+
+ }
+ .todo{
+    
+ }
+ .cuerpo{
+    display: flex;
+    width: 80%;
+ }
+ .cuerpo2{
+    text-align: left;
+    display: flex;
+    width: 80%;
+ }
+ .menu-aside{
+    align-items: center;  
+    text-align: left;
+    background-color:rgb(61, 61, 61);
+    border: 1px solid #1a1919;
+    width: 20%;
+    float: right;
+    position: relative;  left: 90px;
+}
+.panel{
+    display: flex;
+    align-items: flex-start;       
+}
+.cancion{    
+    margin: 20px;
+    background-color: #1a1919;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 300px;
+    position: relative;
+}
+
+.cancion .imagen{
+    width: 100%;
+    height: 300px;
+}
+.cancion .imagen img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.nombre{
+    text-align: center;
+    font-family: 'Konkhmer Sleokchher', cursive;
+    color: #ffffff;
+    display: flex;
+}
+.lista{
+
+    font-family: 'Konkhmer Sleokchher', cursive;
+    color: #ffffff;
+}
+.titulo1{
+    font-family: 'Konkhmer Sleokchher', cursive;
+    color: #ffffff;
+   
+}
+.titulo2{
+    font-family: 'Konkhmer Sleokchher', cursive;
+    color: #ffffff;
+    margin: 20;
+    margin-left: 20;
+}
+
+a{
+    color: #ffffff;
+   
+    
+} .todo1, .nombre1{
+    display: flex;
+}.mg{
+    color: #eb4034;
+    background-color: #00186e00;
+    border:none;
+    font-size: 25px; 
+   
+}.nombre1{
+    align-items: center;
+}.a2{
+    margin: 10px;
+    color: #000000;
+}

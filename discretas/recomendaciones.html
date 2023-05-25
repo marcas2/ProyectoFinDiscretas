@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher&display=swap" rel="stylesheet">
+
+    <title>Recomendados</title>
+    <link rel="stylesheet" 
+    type = "text/css" href="diseño.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <style>
+
+    body{
+        margin: 30;
+        background-color: #1a1919;
+
+        
+    }  
+    header{
+        display: flex;
+        justify-content: space-between;
+        height: 75px; 
+        background:linear-gradient(100deg, #00186e,#b53622);
+        align-items: center;    
+    } h1{
+        font-size: 50px;
+        text-align: left;
+        color: #ffffff;
+     }
+     .logo{
+        font-family: 'Konkhmer Sleokchher', cursive;
+     }
+     .menu{
+        font-family: 'Konkhmer Sleokchher', cursive;
+        color: #01131c;
+
+     }
+     .cuerpo{
+        display: flex;
+        width: 80%;
+     }
+     .cuerpo2{
+        text-align: left;
+        display: flex;
+        width: 80%;
+     }
+     .menu-aside{
+        align-items: center;  
+        text-align: left;
+        background-color:rgb(61, 61, 61);
+        border: 1px solid #1a1919;
+        width: 20%;
+        float: right;
+        position: relative;  left: 90px;
+    }
+    .panel{
+        display: flex;
+        align-items: flex-start;
+        
+    
+
+    }
+    .cancion{    
+        margin: 20px;
+        background-color: #1a1919;
+        border-radius: 15px;
+        overflow: hidden;
+        width: 300px;
+        position: relative;
+    }
+
+    .cancion .imagen{
+        width: 100%;
+        height: 300px;
+    }
+    .cancion .imagen img{
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        object-fit: cover;
+    }
+    .nombre{
+        text-align: center;
+        font-family: 'Konkhmer Sleokchher', cursive;
+        color: #ffffff;
+        display: flex;
+    }
+    .lista{
+
+        font-family: 'Konkhmer Sleokchher', cursive;
+        color: #ffffff;
+    }
+    .titulo1{
+        font-family: 'Konkhmer Sleokchher', cursive;
+        color: #ffffff;
+       
+    }
+    .titulo2{
+        font-family: 'Konkhmer Sleokchher', cursive;
+        color: #ffffff;
+        margin: 20;
+        margin-left: 20;
+    }
+
+    a{
+        color: #ffffff;
+       
+        
+    } .todo1, .nombre1{
+        display: flex;
+    }.mg{
+        color: #eb4034;
+        background-color: #00186e00;
+        border:none;
+        font-size: 25px; 
+       
+    }.nombre1{
+        align-items: center;
+    }.a2{
+        margin: 10px;
+        color: #000000;
+    }
+   
+    </style>
+</head>
+<body> 
+    <header> 
+        <a class="logo">
+            <h1 class="logo1"> Regional </h1>
+        </a>
+        <nav class="menu"> 
+            <a  title="a2" class="a2" href="pastofy.html">Inicio</a>
+            <a  title="a2" class="a2" href="recomendaciones.html">Biblioteca</a>
+            <a  title="a2" class="a2">Cuenta</a>
+        </nav>
+            
+    </header>
+
+    <h2 class="titulo1" id="canciones1">Canciones recomendadas de tu region</h2>
+    
+<div class="todo1"> 
+    <div class="todo">
+
+        <div class="cuerpo">
+
+            <div class="panel">
+                <div class="cancion">
+                    <div class="imagen"> <img src="recursos/edy.jpeg" > </div>
+                    <br>
+                    <div class="audio"><audio src ="recursos/el vaquero.mp3" controls> 
+                    
+                    </audio></div> 
+                    <div class="nombre1"> 
+                    <p class="nombre">Edy martinez - El vaquero</p>
+                    <a href="#like"> 
+                    <button class="mg" > ❤ </button></a>
+                    </div>
+                </div>
+            
+            </div>  
+
+            <div class="panel">
+                <div class="cancion">
+                    <div class="imagen"> <img src="recursos/las tres piedras.jpeg" > </div>
+                    <br>
+                    <div class="audio"><audio src ="recursos/luna de octubre.mp3" controls> 
+                    
+                    </audio></div> 
+                    <div class="nombre1"> 
+                    <p class="nombre">Las Tres Piedras - LUNA DE OCTUBRE</p>
+                    <a href="#like"> 
+                    <button class="mg" > ❤ </button></a>
+                    </div>
+                </div>
+            
+            </div>  
+
+            <div class="panel">
+                <div class="cancion">
+                    <div class="imagen"> <img src="recursos/pasillo.jpeg" > </div>
+                    <br>
+                    <div class="audio"><audio src ="recursos/locura.mp3" controls> 
+                    
+                    </audio></div> 
+                    <div class="nombre1"> 
+                    <p class="nombre">Plecto trio - Locura en Forma de Pasillo</p>
+                    <a href="#like"> 
+                    <button class="mg" > ❤ </button></a>
+                    </div>
+                </div>
+            
+            </div>  
+            
+        </div>
+
+        <div class="cuerpo2">
+
+            <div class="panel">
+                <div class="cancion">
+                    <div class="imagen"> <img src="recursos/sabor.jpeg" > </div>
+                    <br>
+                    <div class="audio"><audio src ="recursos/sabor a miel.mp3" controls> 
+                    
+                    </audio></div> 
+                    <div class="nombre1"> 
+                    <p class="nombre">Segundo Rosero - Sabor a Miel </p>
+                    <a href="#like"> 
+                    <button class="mg" > ❤ </button></a>
+                    </div>
+                </div>
+            
+            </div>  
+
+            <div class="panel">
+                <div class="cancion">
+                    <div class="imagen"> <img src="recursos/vodkanron.jpeg" > </div>
+                    <br>
+                    <div class="audio"><audio src ="recursos/vodka.mp3" controls> 
+                    
+                    </audio></div> 
+                    <div class="nombre1"> 
+                    <p class="nombre">Vodka N' Ron - VODKA N' RON</p>
+                    <a href="#like"> 
+                    <button class="mg" > ❤ </button></a>
+                    </div>
+                </div>
+            
+            </div>  
+
+            <div class="panel">
+                <div class="cancion">
+                    <div class="imagen"> <img src="recursos/aliento nocturno.jpeg" > </div>
+                    <br>
+                    <div class="audio"><audio src ="recursos/aliento.mp3" controls> 
+                    
+                    </audio></div> 
+                    <div class="nombre1"> 
+                    <p class="nombre">Magna Etérea - Aliento nocturno</p>
+                    <a href="#like"> 
+                    <button class="mg" > ❤ </button></a>
+                    </div>
+                </div>
+            
+            </div>  
+            
+        </div>
+        <div class="cuerpo2">
+
+            <div class="panel">
+                <div class="cancion">
+                    <div class="imagen"> <img src="recursos/rayo.jpeg" > </div>
+                    <br>
+                    <div class="audio"><audio src ="recursos/metal zombie.mp3" controls> 
+                    
+                    </audio></div> 
+                    <div class="nombre1"> 
+                    <p class="nombre">RAYO - Heavy Metal Zombie </p>
+                    <a href="#like"> 
+                    <button class="mg" > ❤ </button></a>
+                    </div>
+                </div>
+            
+            </div>  
+
+            <div class="panel">
+                <div class="cancion">
+                    <div class="imagen"> <img src="recursos/madrugada eterna.jpeg" > </div>
+                    <br>
+                    <div class="audio"><audio src ="recursos/madrugada.mp3" controls> 
+                    
+                    </audio></div> 
+                    <div class="nombre1"> 
+                    <p class="nombre">AKA Ninfa Madrugada eterna Ft MC Pencil - Davis Fellatioinore</p>
+                    <a href="#like"> 
+                    <button class="mg" > ❤ </button></a>
+                    </div>
+                </div>
+            
+            </div>  
+
+            <div class="panel">
+                <div class="cancion">
+                    <div class="imagen"> <img src="recursos/mc pencil.jpeg" > </div>
+                    <br>
+                    <div class="audio"><audio src ="recursos/sound.mp3" controls> 
+                    
+                    </audio></div> 
+                    <div class="nombre1"> 
+                    <p class="nombre">MC Pencil - Sound Check ft Sespry</p>
+                    <a href="#like"> 
+                    <button class="mg" > ❤ </button></a>
+                    </div>
+                </div>
+            
+            </div>  
+            
+        </div>
+
+        <div class="cuerpo2">
+
+            <div class="panel">
+                <div class="cancion">
+                    <div class="imagen"> <img src="recursos/mulato.png" > </div>
+                    <br>
+                    <div class="audio"><audio src ="recursos/entre frases.mp3" controls> 
+                    
+                    </audio></div> 
+                    <div class="nombre1"> 
+                    <p class="nombre">Mulato y la Quema - Entre Frases</p>
+                    <a href="#like"> 
+                    <button class="mg" > ❤ </button></a>
+                    </div>
+                </div>
+            
+            </div>  
+
+            <div class="panel">
+                <div class="cancion">
+                    <div class="imagen"> <img src="recursos/ta loca foto.jpeg" > </div>
+                    <br>
+                    <div class="audio"><audio src ="recursos/ta loca.mp3" controls> 
+                    
+                    </audio></div> 
+                    <div class="nombre1"> 
+                    <p class="nombre">Los De La Gracia - Ta' Loca</p>
+                    <a href="#like"> 
+                    <button class="mg" > ❤ </button></a>
+                    </div>
+                </div>
+            
+            </div>  
+
+            <div class="panel">
+                <div class="cancion">
+                    <div class="imagen"> <img src="recursos/volatiles.png" > </div>
+                    <br>
+                    <div class="audio"><audio src ="recursos/volatilexx.mp3" controls> 
+                    
+                    </audio></div> 
+                    <div class="nombre1"> 
+                    <p class="nombre">Procelare - Volátiles</p>
+                    <a href="#like"> 
+                    <button class="mg" > ❤ </button></a>
+                    </div>
+                </div>
+            
+            </div>  
+            
+        </div>
+
+        <div class="cuerpo2">
+
+            <div class="panel">
+                <div class="cancion">
+                    <div class="imagen"> <img src="recursos/dueto.png" > </div>
+                    <br>
+                    <div class="audio"><audio src ="recursos/dueto jazz.mp3" controls> 
+                    
+                    </audio></div> 
+                    <div class="nombre1"> 
+                    <p class="nombre">DUETO JAZZFILE PASTO </p>
+                    <a href="#like"> 
+                    <button class="mg" > ❤ </button></a>
+                    </div>
+                </div>
+            
+            </div>  
+
+            <div class="panel">
+                <div class="cancion">
+                    <div class="imagen"> <img src="recursos/apalau.png" > </div>
+                    <br>
+                    <div class="audio"><audio src ="recursos/ñamuy.mp3" controls> 
+                    
+                    </audio></div> 
+                    <div class="nombre1"> 
+                    <p class="nombre">Apalau - Ñamuy</p>
+                    <a href="#like"> 
+                    <button class="mg" > ❤ </button></a>
+                    </div>
+                </div>
+            
+            </div>  
+
+            <div class="panel">
+                <div class="cancion">
+                    <div class="imagen"> <img src="recursos/bar.png" > </div>
+                    <br>
+                    <div class="audio"><audio src ="recursos/aderall.mp3" controls> 
+                    
+                    </audio></div> 
+                    <div class="nombre1"> 
+                    <p class="nombre">Bar - Aderall</p>
+                    <a href="#like"> 
+                    <button class="mg" > ❤ </button></a>
+                    </div>
+                </div>
+            
+            </div>  
+            
+        </div>
+
+        <div class="cuerpo2">
+
+            <div class="panel">
+                <div class="cancion">
+                    <div class="imagen"> <img src="recursos/juan benavides.png" > </div>
+                    <br>
+                    <div class="audio"><audio src ="recursos/los apus.mp3" controls> 
+                    
+                    </audio></div> 
+                    <div class="nombre1"> 
+                    <p class="nombre">Juan Benavides, Fatua Trio - Los Apus </p>
+                    <a href="#like"> 
+                    <button class="mg" > ❤ </button></a>
+                    </div>
+                </div>
+            
+            </div>  
+
+            
+        </div>
+        
+
+    </div>
+        <aside class="menu-aside"> 
+
+            <nav>
+                <ul class="lista">
+                    <li><a href="pastofy.html">regresar</a></li>
+                    <li><a href="#canciones1">canciones que podrian ser de tu agrado</a></li>
+                  
+                </ul>
+            </nav>
+
+        </aside>
+    </div>
+
+
+    <h1 id="like">like</h1>
+
+
+
+   
+</body>
+</html>
